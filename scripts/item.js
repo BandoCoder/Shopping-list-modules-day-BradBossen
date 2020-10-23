@@ -1,5 +1,5 @@
 const validateName = function (name) {
-    if (name.length === 0) {
+    if (name === '') {
         throw TypeError("name must not be blank")
     }
 }
